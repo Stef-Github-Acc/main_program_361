@@ -115,7 +115,14 @@ def help_menu():
     print("6 - List all books with viewing options.")
 
 def main():
+    first_run = True
     while True:
+        if first_run:
+            print("\nWelcome to the CLI Library! Catalog your books with details and in-home locations,")
+            print("so you can easily check what you own and where to find it.")
+            print("Log-in to get started with adding your books!\n")
+            first_run = False
+
         show_menu()
         choice = input("Enter your choice (1-6): ").strip()
 
