@@ -1,0 +1,7 @@
+{
+  "title": "To Kill a Mockingbird",
+  "author": "Harper Lee",
+  "publisher": "Harper Perennial Modern Classics",
+  "publish_date": "2006",
+  "isbn": "9780061120084"
+}
